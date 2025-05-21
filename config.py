@@ -1,6 +1,7 @@
 KIJIJI_SEARCH_URLS = [
     'https://www.kijiji.ca/b-winnipeg/bike/k0l1700192',
-    'https://www.kijiji.ca/b-cell-phone/gta-greater-toronto-area/iphone/k0c760l1700272'
+    'https://www.kijiji.ca/b-cell-phone/gta-greater-toronto-area/iphone/k0c760l1700272',
+    'https://www.kijiji.ca/b-canada/phone/k0l0?dc=true&view=list'
 ]
 
 CHECK_INTERVAL = 180
