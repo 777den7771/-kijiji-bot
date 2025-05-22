@@ -16,6 +16,7 @@ def save_sent_ad(url):
     with open('sent_ads.txt', 'a') as f:
         f.write(url + '\n')
 
+print("Начинаем работу main.py")
 def main():
     print("Бот запущен.")
     sent_ads = load_sent_ads()
