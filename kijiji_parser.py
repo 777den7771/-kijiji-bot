@@ -2,6 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 
 def get_kijiji_ads(url):
+    print(f"Запрашиваю страницу: {url}")
     headers = {'User-Agent': 'Mozilla/5.0'}
     response = requests.get(url, headers=headers)
     soup = BeautifulSoup(response.text, 'html.parser')

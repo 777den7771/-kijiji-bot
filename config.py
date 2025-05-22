@@ -4,6 +4,6 @@ KIJIJI_SEARCH_URLS = [
     'https://www.kijiji.ca/b-canada/phone/k0l0?dc=true&view=list'
 ]
 
-CHECK_INTERVAL = 180  # 3 минуты
+CHECK_INTERVAL = 180
 TELEGRAM_TOKEN = '7764776672:AAG77dSGvj9GQAQ65qTeablUymI3M0NdWPE'
 CHAT_ID = 6086012346
